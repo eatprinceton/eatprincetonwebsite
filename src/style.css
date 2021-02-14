@@ -1,0 +1,294 @@
+/******************** GENERAL ***************/
+.center-text {
+  text-align: center;
+}
+
+/* general padding, spacing, and colors */
+.section {
+  width: 100%;
+  padding: 5%;
+  padding-left: 15%;
+  padding-right: 15%;
+  background-color: white;
+  color: black;
+}
+
+/* section heading */
+.section-heading {
+  margin-bottom: 40px;
+}
+
+.section-title {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+/* body background color */
+body {
+  background-color: #f8f8ff;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* adding shadows to the buttons */
+.shadow {
+  box-shadow: 5px 10px 10px #888888;
+}
+
+a {
+  color: black;
+}
+/* links */
+a:hover {
+  text-decoration: none;
+  color: #595959;
+}
+
+/* full width images */
+.full-img {
+  width: 100%;
+}
+
+/********** SOCIAL MEDIA ICONS ************/
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 18px;
+  border: 2px solid white;
+  border-radius: 50%;
+  color: white;
+}
+
+.fa:hover {
+  opacity: 0.7;
+  color: white;
+  text-decoration: none;
+}
+
+.email {
+  font-size: 18px;
+}
+
+/*************** FLEXBOX  TOOLS ************/
+
+/* variants on containers */
+.my-container {
+  display: flex;
+  align-items: center;
+  align-content: space-around;
+}
+
+/* different ways to justify content */
+.space {
+  justify-content: space-around;
+}
+
+.between {
+  justify-content: space-between;
+}
+
+.center {
+  justify-content: center;
+}
+
+/* set flex direction  */
+.column-dir {
+  flex-direction: column;
+}
+
+.row-dir {
+  flex-direction: row;
+}
+
+/* align items  */
+.top-align {
+  align-items: start;
+}
+
+.stretch {
+  align-items: stretch;
+}
+
+/* linear-gradient(rgba(109, 109, 109, 0.3), rgba(109, 109, 109, 0.3)),  */
+/***************** HOME PAGE ****************/
+.heroContainer {
+  width: 100%;
+  padding: 13%;
+  height: 100vh;
+}
+.heroText {
+  width: 35%;
+  color: white;
+  text-shadow: 1px 1px 20px #272635;
+}
+.bio {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33px;
+}
+
+/*************** CARDS ********************/
+.cardContainer {
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 2px 5px 8px #888888;
+  height: 100%;
+}
+.cardImg {
+  margin-bottom: 30px;
+}
+.cardInfo {
+  text-align: justify;
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+/****************** ABOUT PAGE ***************/
+.headshot {
+  width: 100%;
+}
+
+.bio-section {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.hello-text {
+  font-size: 90px;
+}
+
+/************** NAV BAR  ********************/
+/* general nav bar layout / padding */
+.navbar {
+  padding: 23px 50px 10px 50px;
+  color: white;
+}
+
+/* general header (e.g. coloring, position ) */
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.after-heading {
+  margin-top: 50px;
+}
+
+/* button to toggle menu in mobile */
+.navbar-toggler {
+  border-width: 3px;
+  border-radius: 5px;
+}
+
+/* links in nav bar */
+.links {
+  height: auto;
+  display: flex;
+  float: right;
+  text-decoration: none;
+}
+
+/* list of nav items */
+li.nav {
+  padding: 0 30px;
+}
+
+/* colors and fonts of nav links */
+.navbar-dark .navbar-nav .nav-link {
+  font-size: 17px;
+  color: #f8f8ff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 22px;
+  text-shadow: 1px 1px 20px #272635;
+  padding-left: 25px;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-dark .navbar-toggler {
+  border-color: white;
+  border-width: 2px;
+}
+
+/************************************************************************/
+/**********************  MOBILE STYING **********************************/
+/************************************************************************/
+
+@media only screen and (max-width: 768px) {
+  /************** GENERAL MOBILE ***************/
+  .section {
+    padding: 15px;
+  }
+
+  /*************** HERO IMAGE *************/
+  .hero-img {
+    background-size: cover;
+    background-position: center;
+  }
+  .heroContainer {
+    height: auto;
+  }
+  .heroText {
+    font-size: 20px;
+    width: 95%;
+  }
+  .bio {
+    font-size: 15px;
+    line-height: normal;
+    padding-bottom: 10px;
+  }
+
+  /************ SOCIAL MEDIA ICONS MOBILE *****************/
+  .fa {
+    font-size: 18px;
+    width: 50px;
+    height: 450x;
+    margin: 5px 10px;
+    border: 2px solid white;
+  }
+  /******************* NAV BAR ******************/
+  .after-heading {
+    margin-top: 80px;
+  }
+
+  /********** MOBILE CARDS ***************/
+  .cardImg {
+    width: 70%;
+    margin-bottom: 10px;
+  }
+  .cardInfo {
+    text-align: justify;
+    font-size: 12px;
+    margin: 10px;
+  }
+  .section-title {
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  /*********** MOBILE ABOUT PAGE **************/
+  .headshot {
+    width: 50%;
+  }
+  .bio-section {
+    padding: 25px;
+  }
+  .hello-text {
+    font-size: 50px;
+  }
+  .about-bio {
+    font-size: 13px;
+  }
+}
