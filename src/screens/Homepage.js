@@ -7,8 +7,11 @@ import Colors from '../colors';
 import Header from '../components/Header';
 import Tag from '../components/Tag';
 import Card from '../components/Card';
-import ecoeatGif from '../images/ecoeat.gif';
+
+
+/* Images */
 import princeton from '../images/princeton.jpg';
+import pj from '../images/pj_pancake.jpg';
 
 const Homepage = () => (
 	<div className="center-text">
@@ -16,19 +19,19 @@ const Homepage = () => (
 
         <div className="section">
 			{/************* Restaurants *********************/}
-			<h1 className="section-title">Restaurants</h1>
+			<h1 className ="section-title">Restaurants</h1>
 			<Row style={styles.projectRow}>
 				<Col lg={4}>
 					<Card
-						title="Restaurant"
-						img={princeton}
-						url="https://www.tigersfornassau.com/"
-						text="This is where we eat eat eat eat eat eat, 5-9pm"
+						title="PJ's Pancake House"
+						img={pj}
+						url="http://www.pancakes.com/"
+						text="Bustling all-day spot known for its signature pancakes & other breakfast food, plus outdoor seating, 
+						9am-7pm M-F, 8am-7pm Sat & Sun"
 						tags={
 							<div className="my-container space">
 								<Tag name="TakeOut" color={Colors.takeoutTag} />
-								<Tag name="Delivery" color={Colors.deliveryTag} />
-                                <Tag name="Mexican" color={Colors.mexicanTag} />
+								<Tag name="Dine-In" color={Colors.deliveryTag} />
 							</div>
 						}
 					/>
@@ -36,7 +39,7 @@ const Homepage = () => (
                 <Col lg={4}>
 					<Card
 						title="Restaurant"
-						img={ecoeatGif}
+						img={pj}
 						url="https://www.tigersfornassau.com/"
 						text="This is where we eat eat eat eat eat eat, 5-9pm"
 						tags={
@@ -51,7 +54,22 @@ const Homepage = () => (
                 <Col lg={4}>
 					<Card
 						title="Restaurant"
-						img={ecoeatGif}
+						img={pj}
+						url="https://www.tigersfornassau.com/"
+						text="This is where we eat eat eat eat eat eat, 5-9pm"
+						tags={
+							<div className="my-container space">
+								<Tag name="TakeOut" color={Colors.takeoutTag} />
+								<Tag name="Delivery" color={Colors.deliveryTag} />
+                                <Tag name="Mexican" color={Colors.mexicanTag} />
+							</div>
+						}
+					/>
+				</Col>
+				<Col lg={4}>
+					<Card
+						title="Restaurant"
+						img={pj}
 						url="https://www.tigersfornassau.com/"
 						text="This is where we eat eat eat eat eat eat, 5-9pm"
 						tags={
@@ -68,7 +86,7 @@ const Homepage = () => (
             <Col lg={4}>
 					<Card
 						title="Restaurant"
-						img={ecoeatGif}
+						img={pj}
 						url="https://www.tigersfornassau.com/"
 						text="This is where we eat eat eat eat eat eat, 5-9pm"
 						tags={

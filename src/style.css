@@ -19,8 +19,9 @@
 }
 
 .section-title {
-  font-size: 60px;
+  font-size: 50px;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 /* body background color */
@@ -47,7 +48,8 @@ a:hover {
 
 /* full width images */
 .full-img {
-  width: 100%;
+  width: 150px;
+  height: auto;
 }
 
 /********** SOCIAL MEDIA ICONS ************/
@@ -133,19 +135,21 @@ a:hover {
 }
 
 /*************** CARDS ********************/
+
 .cardContainer {
-  padding: 20px;
+  padding: 25px;
   margin: 10px;
   box-shadow: 2px 5px 8px #888888;
-  height: 100%;
+  width: 350px;
+  height: 300px;
 }
 .cardImg {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 .cardInfo {
   text-align: justify;
   font-size: 12px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 /****************** ABOUT PAGE ***************/
@@ -203,12 +207,11 @@ li.nav {
 /* colors and fonts of nav links */
 .navbar-dark .navbar-nav .nav-link {
   font-size: 17px;
-  color: #f8f8ff;
+  color: #272635;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 22px;
-  text-shadow: 1px 1px 20px #272635;
   padding-left: 25px;
 }
 .navbar-dark .navbar-nav .nav-link:hover {
@@ -271,11 +274,6 @@ li.nav {
     text-align: justify;
     font-size: 12px;
     margin: 10px;
-  }
-  .section-title {
-    font-size: 50px;
-    margin-top: 30px;
-    margin-bottom: 10px;
   }
 
   /*********** MOBILE ABOUT PAGE **************/

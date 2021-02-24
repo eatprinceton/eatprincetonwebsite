@@ -7,7 +7,7 @@ const Card = (props) => {
 	return (
 		<a href={props.url} target="_blank">
 			<div className="my-container column-dir between cardContainer">
-				<div className="my-container center">
+				<div className="my-container column-dir">
 					<img src={props.img} className="full-img cardImg" />
 				</div>
 
@@ -18,5 +18,11 @@ const Card = (props) => {
 		</a>
 	);
 };
+
+// const styles = {
+// 	titleText: {
+// 		marginBottom: '0px'
+// 	}
+// }
 
 export default Card;

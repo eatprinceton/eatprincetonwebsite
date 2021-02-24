@@ -16,7 +16,7 @@ class Header extends Component {
     console.log(this.state.toggle);
   };
   headerColor = () => {
-    return { backgroundColor: "#423f4e" };
+    return { backgroundColor: "orange"};
   };
   //   logoColor = () => {
   //     if (!this.state.top || this.state.toggle) {
@@ -54,6 +54,13 @@ class Header extends Component {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto" />
             <Nav>
+              <Link
+                to="/"
+                className="nav-link"
+                onClick={() => window.scrollTo(0, 0)}
+              >
+                Home
+              </Link>
               <Link
                 to="/"
                 className="nav-link"
