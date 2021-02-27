@@ -17,9 +17,9 @@ const Homepage = () => (
 	<div className="center-text">
 		<Header solid={false} />
 
-        <div className="section">
+        <div className="sectionBackground">
 			{/************* Restaurants *********************/}
-			<h1 className ="section-title">Restaurants</h1>
+			<h1 className ="section-title" color= 'white'>Restaurants</h1>
 			<Row style={styles.projectRow}>
 				<Col lg={4}>
 					<Card
@@ -83,6 +83,70 @@ const Homepage = () => (
 				</Col>
             </Row>
             <Row style={styles.projectRow}>
+            <Col lg={4}>
+					<Card
+						title="Restaurant"
+						img={pj}
+						url="https://www.tigersfornassau.com/"
+						text="This is where we eat eat eat eat eat eat, 5-9pm"
+						tags={
+							<div className="my-container space">
+								<Tag name="TakeOut" color={Colors.takeoutTag} />
+								<Tag name="Delivery" color={Colors.deliveryTag} />
+                                <Tag name="Mexican" color={Colors.mexicanTag} />
+							</div>
+						}
+					/>
+				</Col>
+                <Col lg={4}>
+					<Card
+						title="Restaurant"
+						img={princeton}
+						url="https://www.tigersfornassau.com/"
+						text="This is where we eat eat eat eat eat eat, 5-9pm"
+						tags={
+							<div className="my-container space">
+								<Tag name="TakeOut" color={Colors.takeoutTag} />
+								<Tag name="Delivery" color={Colors.deliveryTag} />
+                                <Tag name="Mexican" color={Colors.mexicanTag} />
+							</div>
+						}
+					/>
+				</Col>
+            </Row>
+			<Row style={styles.projectRow}>
+            <Col lg={4}>
+					<Card
+						title="Restaurant"
+						img={pj}
+						url="https://www.tigersfornassau.com/"
+						text="This is where we eat eat eat eat eat eat, 5-9pm"
+						tags={
+							<div className="my-container space">
+								<Tag name="TakeOut" color={Colors.takeoutTag} />
+								<Tag name="Delivery" color={Colors.deliveryTag} />
+                                <Tag name="Mexican" color={Colors.mexicanTag} />
+							</div>
+						}
+					/>
+				</Col>
+                <Col lg={4}>
+					<Card
+						title="Restaurant"
+						img={princeton}
+						url="https://www.tigersfornassau.com/"
+						text="This is where we eat eat eat eat eat eat, 5-9pm"
+						tags={
+							<div className="my-container space">
+								<Tag name="TakeOut" color={Colors.takeoutTag} />
+								<Tag name="Delivery" color={Colors.deliveryTag} />
+                                <Tag name="Mexican" color={Colors.mexicanTag} />
+							</div>
+						}
+					/>
+				</Col>
+            </Row>
+			<Row style={styles.projectRow}>
             <Col lg={4}>
 					<Card
 						title="Restaurant"

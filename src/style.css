@@ -4,13 +4,19 @@
 }
 
 /* general padding, spacing, and colors */
-.section {
+.sectionBackground {
   width: 100%;
   padding: 5%;
   padding-left: 15%;
   padding-right: 15%;
-  background-color: white;
-  color: black;
+  background-image: linear-gradient(
+      rgba(223, 231, 221, 0.103),
+      rgba(194, 218, 247, 0.445)
+    ),
+    url("images/overhead.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 /* section heading */
@@ -19,6 +25,7 @@
 }
 
 .section-title {
+  color: white;
   font-size: 50px;
   margin-bottom: 20px;
   margin-top: 20px;
@@ -140,6 +147,7 @@ a:hover {
   padding: 25px;
   margin: 10px;
   box-shadow: 2px 5px 8px #888888;
+  background-color: white;
   width: 350px;
   height: 300px;
 }
