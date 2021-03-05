@@ -178,6 +178,53 @@ const Homepage = () => (
 					/>
 				</Col>
             </Row>
+			<Row style={styles.projectRow}>
+            <Col lg={4}>
+					<Card
+						title="7-Eleven"
+						img={pj}
+						url="https://www.7-eleven.com/locations/nj/princeton/259-nassau-st-36995"
+						text="This is where we eat eat eat eat eat eat, 5-9pm"
+						tags={
+							<div className="my-container space">
+								<Tag name="TakeOut" color={Colors.takeoutTag} />
+								<Tag name="Delivery" color={Colors.deliveryTag} />
+                                <Tag name="Mexican" color={Colors.mexicanTag} />
+							</div>
+						}
+					/>
+				</Col>
+                <Col lg={4}>
+					<Card
+						title="A Little Taste of Cuba"
+						img={princeton}
+						url="https://cubacigar.com/"
+						text="This is where we eat eat eat eat eat eat, 5-9pm"
+						tags={
+							<div className="my-container space">
+								<Tag name="TakeOut" color={Colors.takeoutTag} />
+								<Tag name="Delivery" color={Colors.deliveryTag} />
+                                <Tag name="Mexican" color={Colors.mexicanTag} />
+							</div>
+						}
+					/>
+				</Col>
+				<Col lg={4}>
+					<Card
+						title="Agricola"
+						img={princeton}
+						url="https://www.agricolaeatery.com/"
+						text="This is where we eat eat eat eat eat eat, 5-9pm"
+						tags={
+							<div className="my-container space">
+								<Tag name="TakeOut" color={Colors.takeoutTag} />
+								<Tag name="Delivery" color={Colors.deliveryTag} />
+                                <Tag name="Mexican" color={Colors.mexicanTag} />
+							</div>
+						}
+					/>
+				</Col>
+            </Row>
         </div>
     </div>
 );
