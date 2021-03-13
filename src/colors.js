@@ -1,4 +1,4 @@
-  
+
 export default {
 	darkest: '#272635',
 	accent: '#7389FF',
