@@ -19,7 +19,7 @@ const Homepage = () => (
 
         <div className="sectionBackground">
 			{/************* Restaurants *********************/}
-			<h1 className ="section-title" color= 'white'>Restaurants</h1>
+			<h1 className ="section-title">Restaurants</h1>
 			<Row style={styles.projectRow}>
 				<Col lg={4}>
 					<Card
