@@ -45,7 +45,11 @@ const Homepage = () => (
 
 		<div className="sectionBackground">
 			{/************* Restaurants *********************/}
+<<<<<<< HEAD
+			<h1 className ="section-title">Restaurants</h1>
+=======
 			<h1 className="section-title" color='white'>Restaurants</h1>
+>>>>>>> 56cce5de05bedd9fa8ec575c095c8b719cd68916
 			<Row style={styles.projectRow}>
 				<Col lg={4}>
 					<Card

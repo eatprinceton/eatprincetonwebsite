@@ -10,10 +10,10 @@
   padding-left: 15%;
   padding-right: 15%;
   background-image: linear-gradient(
-      rgba(223, 231, 221, 0.103),
-      rgba(194, 218, 247, 0.445)
+      rgba(109, 110, 109, 0.267),
+      rgba(91, 92, 94, 0.192)
     ),
-    url("images/overhead.jpg");
+    url("images/blair.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -25,15 +25,16 @@
 }
 
 .section-title {
-  color: white;
   font-size: 50px;
   margin-bottom: 20px;
   margin-top: 20px;
+  width: 100%;
+  background-color: white;
 }
 
 /* body background color */
 body {
-  background-color: #f8f8ff;
+  background-color: #a0a0a0;
 }
 html {
   scroll-behavior: smooth;

@@ -16,7 +16,7 @@ class Header extends Component {
     console.log(this.state.toggle);
   };
   headerColor = () => {
-    return { backgroundColor: "orange"};
+    return { backgroundColor: 'white'};
   };
   //   logoColor = () => {
   //     if (!this.state.top || this.state.toggle) {
