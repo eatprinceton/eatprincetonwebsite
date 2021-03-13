@@ -8,31 +8,90 @@ import Header from '../components/Header';
 import Tag from '../components/Tag';
 import Card from '../components/Card';
 
-import	Agricola	from '../images/agricola.jpg';		
-import	AjitenJapanese	from '../images/ajiten.jpg';		
-import	AlchemistandBarrister	from '../images/princeton.jpg';		
-import	ArleesRawBlends	from '../images/princeton.jpg';		
-import	BentSpoonArtisanIceCreamandBakery	from '../images/princeton.jpg';		
-import	BluePointGrill	from '../images/princeton.jpg';		
-import	CaféVienna	from '../images/princeton.jpg';		
-import	ChapinGuatamaleanCuisine	from '../images/princeton.jpg';		
-import	ChenaiChimeny	from '../images/princeton.jpg';		
-import	ChezAliceGourmetCaféBakery	from '../images/princeton.jpg';		
-import	ChucksSpringStCafé	from '../images/princeton.jpg';		
-import	ContesPizza	from '../images/princeton.jpg';		
-import	DAngelos	from '../images/princeton.jpg';		
-import	DinkyBarKitchen	from '../images/princeton.jpg';		
-import	DunkinDonuts	from '../images/princeton.jpg';		
-import	EFESMediterranean	from '../images/princeton.jpg';		
-import	Elements	from '../images/princeton.jpg';		
-import	Elite5Sushi	from '../images/princeton.jpg';		
-import	FruityYogurt	from '../images/princeton.jpg';		
-import	FruttaBowls	from '../images/princeton.jpg';		
-import	HaloPub	from '../images/princeton.jpg';		
-import	HoagieHaven	from '../images/princeton.jpg';		
-import	HouseofCupcakes	from '../images/princeton.jpg';		
-import	HunanChineseRestaurant	from '../images/princeton.jpg';		
+import Agricola from '../images/agricola.jpg';
+import AjitenJapanese from '../images/ajiten.jpg';
+import AlchemistandBarrister from '../images/princeton.jpg';
+import ArleesRawBlends from '../images/princeton.jpg';
+import BentSpoonArtisanIceCreamandBakery from '../images/princeton.jpg';
+import BluePointGrill from '../images/princeton.jpg';
+import CaféVienna from '../images/princeton.jpg';
+import ChapinGuatamaleanCuisine from '../images/princeton.jpg';
+import ChenaiChimeny from '../images/princeton.jpg';
+import ChezAliceGourmetCaféBakery from '../images/princeton.jpg';
+import ChucksSpringStCafé from '../images/princeton.jpg';
+import ContesPizza from '../images/princeton.jpg';
+import DAngelos from '../images/princeton.jpg';
+import DinkyBarKitchen from '../images/princeton.jpg';
+import DunkinDonuts from '../images/princeton.jpg';
+import EFESMediterranean from '../images/princeton.jpg';
+import Elements from '../images/princeton.jpg';
+import Elite5Sushi from '../images/princeton.jpg';
+import FruityYogurt from '../images/princeton.jpg';
+import FruttaBowls from '../images/princeton.jpg';
+import HaloPub from '../images/princeton.jpg';
+import HoagieHaven from '../images/princeton.jpg';
+import HouseofCupcakes from '../images/princeton.jpg';
+import HunanChineseRestaurant from '../images/princeton.jpg';
 
+import IvyInnBarandRestaurant from '../images/agricola.jpg';
+import JamminCrepes from '../images/agricola.jpg';
+import JulesThinCrustPizza from '../images/agricola.jpg';
+import KBGKoreanbbqgrill from '../images/agricola.jpg';
+import Kilwins from '../images/agricola.jpg';
+import Kristines from '../images/agricola.jpg';
+import LaMezzaluna from '../images/agricola.jpg';
+import LanRamen from '../images/agricola.jpg';
+import LilThaiPin from '../images/agricola.jpg';
+import LittleChefPastryShop from '../images/agricola.jpg';
+import LocalGreek from '../images/agricola.jpg';
+import LupitaMexicanGrocery from '../images/agricola.jpg';
+import MamounsFalafelRestaurant from '../images/agricola.jpg';
+import Mediterra from '../images/agricola.jpg';
+import MeetingHouse from '../images/agricola.jpg';
+import MetroNorth from '../images/agricola.jpg';
+import MilkCookies from '../images/agricola.jpg';
+import Mistral from '../images/agricola.jpg';
+import MolisanaDeli from '../images/agricola.jpg';
+import NassauSeafoodandProduce from '../images/agricola.jpg';
+import NassauSushi from '../images/agricola.jpg';
+import Olives from '../images/agricola.jpg';
+import OlssonsFineFoods from '../images/agricola.jpg';
+import PaneraBread from '../images/agricola.jpg';
+import PizzaDen from '../images/agricola.jpg';
+import PJsPancakeHouse from '../images/agricola.jpg';
+import PrincetonSoupSandwich from '../images/agricola.jpg';
+import PlayaBowls from '../images/agricola.jpg';
+import PurinsuRamen from '../images/agricola.jpg';
+
+import Qdoba from '../images/agricola.jpg';
+import RojosRoastery from '../images/agricola.jpg';
+import RootsOceanPrime from '../images/agricola.jpg';
+import SakridCoffee from '../images/agricola.jpg';
+import SakuraExpress from '../images/agricola.jpg';
+import SayCheez from '../images/agricola.jpg';
+import SmallBites from '../images/agricola.jpg';
+import SmallWorldCoffee from '../images/agricola.jpg';
+import SoonjasCuisine from '../images/agricola.jpg';
+import Starbucks from '../images/agricola.jpg';
+import Tacoria from '../images/agricola.jpg';
+import TasteofMexico from '../images/agricola.jpg';
+import TerramomoBakery from '../images/agricola.jpg';
+
+import	ThaiVillagePlace	from '../images/agricola.jpg';
+import	TheBentSpoon	from '../images/agricola.jpg';
+import	TheSaladandSmoothieMarket	from '../images/agricola.jpg';
+import	TheYankeeDoodleTapRoom	from '../images/agricola.jpg';
+import	ThomasSweetChocolate	from '../images/agricola.jpg';
+import	ThomasSweetIceCream	from '../images/agricola.jpg';
+import	TicosEateryandJuiceBar	from '../images/agricola.jpg';
+import	TigerNoodles	from '../images/agricola.jpg';
+import	TomoSushi	from '../images/agricola.jpg';
+import	TortugasMexicanRestaurant	from '../images/agricola.jpg';
+import	TrattoriaProcaccini	from '../images/agricola.jpg';
+import	ViennaCafé	from '../images/agricola.jpg';
+import	WinberiesRestaurantandBar	from '../images/agricola.jpg';
+import	TerraMomoBreadCompany	from '../images/agricola.jpg';
+import	WitherspoonGrill	from '../images/agricola.jpg';
 
 /* Images */
 import princeton from '../images/princeton.jpg';
@@ -91,8 +150,8 @@ const Homepage = () => (
 
 							</div>} />
 				</Col>
-				</Row>
-				<Row style={styles.projectRow}>
+			</Row>
+			<Row style={styles.projectRow}>
 				<Col lg={4}>
 					<Card
 						title="Arlee's Raw Blends"
@@ -137,8 +196,8 @@ const Homepage = () => (
 
 							</div>} />
 				</Col>
-				</Row>
-				<Row style={styles.projectRow}>
+			</Row>
+			<Row style={styles.projectRow}>
 				<Col lg={4}>
 					<Card
 						title="Café Vienna"
@@ -158,7 +217,7 @@ const Homepage = () => (
 					<Card
 						title="Chapin Guatamalean Cuisine"
 						img={ChapinGuatamaleanCuisine}
-						url=""
+						url="https://www.yelp.com/biz/chapin-guatemalan-and-mexican-restaurant-princeton"
 						text="Traditional Guatamalean food"
 						tags={
 							<div className="my-container space">
@@ -183,8 +242,8 @@ const Homepage = () => (
 								<Tag name="Delivery" color={Colors.deliveryTag} />
 							</div>} />
 				</Col>
-				</Row>
-				<Row style={styles.projectRow}>
+			</Row>
+			<Row style={styles.projectRow}>
 
 				<Col lg={4}>
 					<Card
@@ -230,8 +289,8 @@ const Homepage = () => (
 
 							</div>} />
 				</Col>
-				</Row>
-				<Row style={styles.projectRow}>
+			</Row>
+			<Row style={styles.projectRow}>
 
 				<Col lg={4}>
 					<Card
@@ -277,8 +336,8 @@ const Homepage = () => (
 								<Tag name="Delivery" color={Colors.deliveryTag} />
 							</div>} />
 				</Col>
-				</Row>
-				<Row style={styles.projectRow}>
+			</Row>
+			<Row style={styles.projectRow}>
 
 				<Col lg={4}>
 					<Card
@@ -324,8 +383,8 @@ const Homepage = () => (
 
 							</div>} />
 				</Col>
-				</Row>
-				<Row style={styles.projectRow}>
+			</Row>
+			<Row style={styles.projectRow}>
 				<Col lg={4}>
 					<Card
 						title="Fruity Yogurt"
@@ -370,8 +429,8 @@ const Homepage = () => (
 
 							</div>} />
 				</Col>
-				</Row>
-				<Row style={styles.projectRow}>
+			</Row>
+			<Row style={styles.projectRow}>
 
 				<Col lg={4}>
 					<Card
@@ -417,9 +476,893 @@ const Homepage = () => (
 								<Tag name="Delivery" color={Colors.deliveryTag} />
 							</div>} />
 				</Col>
-				
-				
+
 			</Row>
+
+			<Row style={styles.projectRow}>
+				<Col lg={4}>
+					<Card
+						title="Ivy Inn Bar and Restaurant"
+						img={IvyInnBarandRestaurant}
+						url="http://ivyinnprinceton.com/"
+						text="Enduring, laid-back watering hole featuring DJs, live music & karaoke, with pub grub & a patio."
+						tags={
+							<div className="my-container space">
+								<Tag name="Bar and Grill" color={Colors.barandgrillTag} />
+								<Tag name="Dine-In" color={Colors.dineInTag} />
+								<Tag name="TakeOut" color={Colors.takeoutTag} />
+
+							</div>} />
+				</Col>
+
+				<Col lg={4}>
+					<Card
+						title="Jammin Crepes"
+						img={JamminCrepes}
+						url="https://www.jammincrepes.com/"
+						text="Counter-serve operation known for sweet, savory & breakfast crêpes made with local ingredients."
+						tags={
+							<div className="my-container space">
+								<Tag name="Cafe" color={Colors.cafeTag} />
+
+								<Tag name="TakeOut" color={Colors.takeoutTag} />
+								<Tag name="Delivery" color={Colors.deliveryTag} />
+							</div>} />
+				</Col>
+
+				<Col lg={4}>
+					<Card
+						title="Jules Thin Crust Pizza"
+						img={JulesThinCrustPizza}
+						url="https://www.julesthincrust.com/"
+						text="Modern pizzeria chain serving organic thin-crust pies & salads in a family-friendly setting."
+						tags={
+							<div className="my-container space">
+								<Tag name="Pizza" color={Colors.pizzaTag} />
+								<Tag name="Dine-In" color={Colors.dineInTag} />
+								<Tag name="TakeOut" color={Colors.takeoutTag} />
+								<Tag name="Delivery" color={Colors.deliveryTag} />
+							</div>} />
+				</Col>
+			</Row>
+			<Row style={styles.projectRow}>
+
+
+				<Col lg={4}>
+					<Card
+						title="KBG Korean bbq & grill"
+						img={KBGKoreanbbqgrill}
+						url="http://www.eatkbg.com/"
+						text="KBG Korean BBQ & Grill is a fast casual restaurant in New Jersey with flavor from Korea. We believe in proving a different approach to Korean BBQ. Our goal is to stay authentic and provide real deal Korean food. Fresh. Affordable. Satisfying."
+						tags={
+							<div className="my-container space">
+								<Tag name="Korean" color={Colors.koreanTag} />
+
+								<Tag name="TakeOut" color={Colors.takeoutTag} />
+
+							</div>} />
+				</Col>
+
+				<Col lg={4}>
+					<Card
+						title="Kilwin's"
+						img={Kilwins}
+						url="https://www.kilwins.com/Princeton"
+						text="Old-fashioned confectionery chain selling chocolates, ice cream, handmade sweets & gift baskets."
+						tags={
+							<div className="my-container space">
+								<Tag name="Sweets" color={Colors.sweetsTag} />
+
+								<Tag name="TakeOut" color={Colors.takeoutTag} />
+
+							</div>} />
+				</Col>
+
+				<Col lg={4}>
+					<Card
+						title="Kristine's"
+						img={Kristines}
+						url="https://www.kristinesprinceton.com/"
+						text="Fresh, Simple, French. Kristine's is a fresh take on a traditional French bistro. Serving delicious food, vegan and gluten-free options included."
+						tags={
+							<div className="my-container space">
+								<Tag name="French" color={Colors.frenchTag} />
+								<Tag name="Dine-In" color={Colors.dineInTag} />
+								<Tag name="TakeOut" color={Colors.takeoutTag} />
+								<Tag name="Delivery" color={Colors.deliveryTag} />
+							</div>} />
+				</Col>
+			</Row>
+			<Row style={styles.projectRow}>
+
+				<Col lg={4}>
+					<Card
+						title="La Mezzaluna"
+						img={LaMezzaluna}
+						url="https://www.lamezzaluna.com/"
+						text="Creative takes on classic Italian dishes are served at this colorful BYOB restaurant."
+						tags={
+							<div className="my-container space">
+								<Tag name="Italian" color={Colors.italianTag} />
+								<Tag name="Dine-In" color={Colors.dineInTag} />
+								<Tag name="TakeOut" color={Colors.takeoutTag} />
+								<Tag name="Delivery" color={Colors.deliveryTag} />
+							</div>} />
+				</Col>
+
+				<Col lg={4}>
+					<Card
+						title="Lan Ramen"
+						img={LanRamen}
+						url="https://www.lanramen.com/"
+						text="A menu featuring Japanese plates & an array of ramen dishes in a relaxed space with counter seating."
+						tags={
+							<div className="my-container space">
+								<Tag name="Chinese" color={Colors.chineseTag} />
+								<Tag name="Dine-In" color={Colors.dineInTag} />
+								<Tag name="TakeOut" color={Colors.takeoutTag} />
+								<Tag name="Delivery" color={Colors.deliveryTag} />
+							</div>} />
+				</Col>
+
+				<Col lg={4}>
+					<Card
+						title="Lil' Thai Pin"
+						img={LilThaiPin}
+						url="https://www.lilthaipin.com/"
+						text="Come experience great food, graceful decor, and a friendly atmosphere at Lil Thai Pin. Join us for authentic Thai cuisine and experience courteous service that will make you feel at home."
+						tags={
+							<div className="my-container space">
+								<Tag name="Thai" color={Colors.thaiTag} />
+								<Tag name="Dine-In" color={Colors.dineInTag} />
+								<Tag name="TakeOut" color={Colors.takeoutTag} />
+								<Tag name="Delivery" color={Colors.deliveryTag} />
+							</div>} />
+				</Col>
+			</Row>
+			<Row style={styles.projectRow}>
+
+				<Col lg={4}>
+					<Card
+						title="Little Chef Pastry Shop"
+						img={LittleChefPastryShop}
+						url="http://www.littlechefpastries.com/"
+						text="The cakes, tarts, napoleons, eclairs and other treats served in this adorable shop are delicious enough to make anyone swoon."
+						tags={
+							<div className="my-container space">
+								<Tag name="Bakery" color={Colors.bakeryTag} />
+
+								<Tag name="TakeOut" color={Colors.takeoutTag} />
+
+							</div>} />
+				</Col>
+
+				<Col lg={4}>
+					<Card
+						title="Local Greek"
+						img={LocalGreek}
+						url="https://www.localgreeknj.com/"
+						text="Greek sharing plates & house-baked treats are served in a rustic space with a market section."
+						tags={
+							<div className="my-container space">
+								<Tag name="Mediterranean" color={Colors.mediterraneanTag} />
+								<Tag name="Dine-In" color={Colors.dineInTag} />
+								<Tag name="TakeOut" color={Colors.takeoutTag} />
+								<Tag name="Delivery" color={Colors.deliveryTag} />
+							</div>} />
+				</Col>
+
+				<Col lg={4}>
+					<Card
+						title="Lupita Mexican Grocery"
+						img={LupitaMexicanGrocery}
+						url="https://www.yelp.com/biz/lupita-groceries-princeton"
+						text="Authentic Mexican grocer with Mexican breads, fresh produce and meats"
+						tags={
+							<div className="my-container space">
+								<Tag name="Mexican" color={Colors.mexicanTag} />
+								<Tag name="Dine-In" color={Colors.dineInTag} />
+								<Tag name="TakeOut" color={Colors.takeoutTag} />
+
+							</div>} />
+				</Col>
+			</Row>
+			<Row style={styles.projectRow}>
+
+				<Col lg={4}>
+					<Card
+						title="Mamoun's Falafel Restaurant"
+						img={MamounsFalafelRestaurant}
+						url="https://mamouns.com/locations/princeton-nj"
+						text="Local Middle Eastern chain serving falafel, shawarma, kebabs & more in a traditional space."
+						tags={
+							<div className="my-container space">
+								<Tag name="Mediterranean" color={Colors.mediterraneanTag} />
+								<Tag name="Dine-In" color={Colors.dineInTag} />
+								<Tag name="TakeOut" color={Colors.takeoutTag} />
+								<Tag name="Delivery" color={Colors.deliveryTag} />
+							</div>} />
+				</Col>
+
+				<Col lg={4}>
+					<Card
+						title="Mediterra"
+						img={Mediterra}
+						url="https://www.mediterrarestaurant.com/"
+						text="Seasonal Med fare in a rustic-chic setting, plus an extensive wine list & a patio."
+						tags={
+							<div className="my-container space">
+								<Tag name="Mediterranean" color={Colors.mediterraneanTag} />
+								<Tag name="Dine-In" color={Colors.dineInTag} />
+								<Tag name="TakeOut" color={Colors.takeoutTag} />
+
+							</div>} />
+				</Col>
+
+				<Col lg={4}>
+					<Card
+						title="Meeting House"
+						img={MeetingHouse}
+						url="http://meetinghouseprinceton.com/"
+						text="Restaurant and bar offering simple American cuisine with an emphasis on seasonal ingredients."
+						tags={
+							<div className="my-container space">
+								<Tag name="American" color={Colors.americanTag} />
+								<Tag name="Dine-In" color={Colors.dineInTag} />
+								<Tag name="TakeOut" color={Colors.takeoutTag} />
+								<Tag name="Delivery" color={Colors.deliveryTag} />
+							</div>} />
+				</Col>
+			</Row>
+
+			<Row style={styles.projectRow}>
+
+				<Col lg={4}>
+					<Card
+						title="Metro North"
+						img={MetroNorth}
+						url="http://www.metrorestaurantgroup.com/"
+						text="Italian dishes served at a upscale-rustic venue with a bar scene & a patio."
+						tags={
+							<div className="my-container space">
+								<Tag name="Italian" color={Colors.italianTag} />
+								<Tag name="Dine-In" color={Colors.dineInTag} />
+								<Tag name="TakeOut" color={Colors.takeoutTag} />
+
+							</div>} />
+				</Col>
+
+				<Col lg={4}>
+					<Card
+						title="Milk & Cookies"
+						img={MilkCookies}
+						url="https://milkncookies.online/"
+						text="Fresh cookies served along with nice, cold milk, and hot coffee and tea."
+						tags={
+							<div className="my-container space">
+								<Tag name="Sweets" color={Colors.sweetsTag} />
+
+								<Tag name="TakeOut" color={Colors.takeoutTag} />
+								<Tag name="Delivery" color={Colors.deliveryTag} />
+							</div>} />
+				</Col>
+
+				<Col lg={4}>
+					<Card
+						title="Mistral"
+						img={Mistral}
+						url="http://www.mistralprinceton.com/"
+						text="Sophisticated, globally-inspired small plates in a serene & modern space with blond wood."
+						tags={
+							<div className="my-container space">
+								<Tag name="American" color={Colors.americanTag} />
+								<Tag name="Dine-In" color={Colors.dineInTag} />
+								<Tag name="TakeOut" color={Colors.takeoutTag} />
+
+							</div>} />
+				</Col>
+			</Row>
+			<Row style={styles.projectRow}>
+
+				<Col lg={4}>
+					<Card
+						title="Molisana Deli"
+						img={MolisanaDeli}
+						url="http://molisana-deli.poi.place/"
+						text="Sandwich Shop Offering a Wide Range of Tasty Creations in Millstone."
+						tags={
+							<div className="my-container space">
+								<Tag name="Sandwich" color={Colors.sandwichTag} />
+
+								<Tag name="TakeOut" color={Colors.takeoutTag} />
+
+							</div>} />
+				</Col>
+
+				<Col lg={4}>
+					<Card
+						title="Nassau Seafood and Produce"
+						img={NassauSeafoodandProduce}
+						url="http://nassaustreetseafood.com/"
+						text="Serves the community the highest quality seafood."
+						tags={
+							<div className="my-container space">
+								<Tag name="American" color={Colors.americanTag} />
+
+								<Tag name="TakeOut" color={Colors.takeoutTag} />
+								<Tag name="Delivery" color={Colors.deliveryTag} />
+							</div>} />
+				</Col>
+
+				<Col lg={4}>
+					<Card
+						title="Nassau Sushi"
+						img={NassauSushi}
+						url="https://nassausushi.godaddysites.com/"
+						text="Sushi store next to Thomas Sweets and across the CVS"
+						tags={
+							<div className="my-container space">
+								<Tag name="Japanese" color={Colors.japaneseTag} />
+								<Tag name="Dine-In" color={Colors.dineInTag} />
+								<Tag name="TakeOut" color={Colors.takeoutTag} />
+
+							</div>} />
+				</Col>
+			</Row>
+			<Row style={styles.projectRow}>
+
+				<Col lg={4}>
+					<Card
+						title="Olive's"
+						img={Olives}
+						url="http://www.olivesprinceton.com/"
+						text="Basic bakery/deli serving baked goods & an all-day menu with Greek & vegetarian specialties."
+						tags={
+							<div className="my-container space">
+								<Tag name="Cafe" color={Colors.cafeTag} />
+
+								<Tag name="TakeOut" color={Colors.takeoutTag} />
+								<Tag name="Delivery" color={Colors.deliveryTag} />
+							</div>} />
+				</Col>
+
+				<Col lg={4}>
+					<Card
+						title="Olsson's Fine Foods"
+						img={OlssonsFineFoods}
+						url="http://www.olssonsfinefoods.com/"
+						text="Offline & online cheese shop offering a wide range of imported and domestic cheeses, catering services and much more!"
+						tags={
+							<div className="my-container space">
+								<Tag name="Cafe" color={Colors.cafeTag} />
+
+								<Tag name="TakeOut" color={Colors.takeoutTag} />
+
+							</div>} />
+				</Col>
+
+				<Col lg={4}>
+					<Card
+						title="Panera Bread"
+						img={PaneraBread}
+						url="https://www.panerabread.com/en-us/home.html"
+						text="American chain bakery-café fast casual restaurant"
+						tags={
+							<div className="my-container space">
+								<Tag name="Cafe" color={Colors.cafeTag} />
+								<Tag name="Dine-In" color={Colors.dineInTag} />
+								<Tag name="TakeOut" color={Colors.takeoutTag} />
+								<Tag name="Delivery" color={Colors.deliveryTag} />
+							</div>} />
+				</Col>
+			</Row>
+			<Row style={styles.projectRow}>
+				<Col lg={4}>
+					<Card
+						title="Pizza Den"
+						img={PizzaDen}
+						url="http://www.pizzadenprinceton.com/"
+						text="Pizza made using made in-house dough"
+						tags={
+							<div className="my-container space">
+								<Tag name="Pizza" color={Colors.pizzaTag} />
+								<Tag name="Dine-In" color={Colors.dineInTag} />
+								<Tag name="TakeOut" color={Colors.takeoutTag} />
+								<Tag name="Delivery" color={Colors.deliveryTag} />
+							</div>} />
+				</Col>
+
+				<Col lg={4}>
+					<Card
+						title="PJ's Pancake House"
+						img={PJsPancakeHouse}
+						url="http://www.pancakes.com/"
+						text="Bustling all-day spot known for its signature pancakes & other breakfast food, plus outdoor seating."
+						tags={
+							<div className="my-container space">
+								<Tag name="American" color={Colors.americanTag} />
+								<Tag name="Dine-In" color={Colors.dineInTag} />
+								<Tag name="TakeOut" color={Colors.takeoutTag} />
+
+							</div>} />
+				</Col>
+
+				<Col lg={4}>
+					<Card
+						title="Princeton Soup & Sandwich"
+						img={PrincetonSoupSandwich}
+						url="princetonsoupandsandwich.com"
+						text="Easygoing, family-run place offering deli sandwiches & soups, including lobster bisque."
+						tags={
+							<div className="my-container space">
+								<Tag name="Sandwich" color={Colors.sandwichTag} />
+
+								<Tag name="TakeOut" color={Colors.takeoutTag} />
+								<Tag name="Delivery" color={Colors.deliveryTag} />
+							</div>} />
+				</Col>
+			</Row>
+			<Row style={styles.projectRow}>
+				<Col lg={4}>
+					<Card
+						title="Playa Bowls"
+						img={PlayaBowls}
+						url="https://www.playabowls.com/"
+						text="Healthy, delicious açaí, pitaya, coconut bowls and smoothies with sustainability and community in mind."
+						tags={
+							<div className="my-container space">
+								<Tag name="Juice and Smoothies" color={Colors.juiceandsmoothiesTag} />
+
+								<Tag name="TakeOut" color={Colors.takeoutTag} />
+
+							</div>} />
+				</Col>
+
+				<Col lg={4}>
+					<Card
+						title="Purinsu Ramen"
+						img={PurinsuRamen}
+						url="https://www.purinsuramen.com/"
+						text="Japanese restaurant known for its modern interpretation of classic dishes and its insistence on only using high quality fresh ingredients."
+						tags={
+							<div className="my-container space">
+								<Tag name="Japanese" color={Colors.japaneseTag} />
+
+								<Tag name="TakeOut" color={Colors.takeoutTag} />
+								<Tag name="Delivery" color={Colors.deliveryTag} />
+							</div>} />
+				</Col>
+
+				<Col lg={4}>
+					<Card
+						title="Qdoba"
+						img={Qdoba}
+						url="https://www.qdoba.com/"
+						text="Chain of fast casual restaurants in the United States and Canada serving Mexican-style cuisine."
+						tags={
+							<div className="my-container space">
+								<Tag name="Mexican" color={Colors.mexicanTag} />
+								<Tag name="Dine-In" color={Colors.dineInTag} />
+								<Tag name="TakeOut" color={Colors.takeoutTag} />
+								<Tag name="Delivery" color={Colors.deliveryTag} />
+							</div>} />
+				</Col>
+			</Row>
+			<Row style={styles.projectRow}>
+				<Col lg={4}>
+					<Card
+						title="Rojo's Roastery"
+						img={RojosRoastery}
+						url="https://rojosroastery.com/"
+						text="Coffee specialist & roaster dispensing beverages made with sustainable beans, plus baked goods."
+						tags={
+							<div className="my-container space">
+								<Tag name="Cafe" color={Colors.cafeTag} />
+
+								<Tag name="TakeOut" color={Colors.takeoutTag} />
+
+							</div>} />
+				</Col>
+
+				<Col lg={4}>
+					<Card
+						title="Roots Ocean Prime"
+						img={RootsOceanPrime}
+						url="https://rootssteakhouse.com/roots_ocean_prime"
+						text="Steak house located on the Princeton campus"
+						tags={
+							<div className="my-container space">
+								<Tag name="Bar and Grill" color={Colors.barandgrillTag} />
+								<Tag name="Dine-In" color={Colors.dineInTag} />
+								<Tag name="TakeOut" color={Colors.takeoutTag} />
+
+							</div>} />
+				</Col>
+
+				<Col lg={4}>
+					<Card
+						title="Sakrid Coffee"
+						img={SakridCoffee}
+						url="http://sakridcoffee.com/"
+						text="Premium coffee paired with the best local foods and drinks"
+						tags={
+							<div className="my-container space">
+								<Tag name="Cafe" color={Colors.cafeTag} />
+
+								<Tag name="TakeOut" color={Colors.takeoutTag} />
+
+							</div>} />
+				</Col>
+			</Row>
+			<Row style={styles.projectRow}>
+				<Col lg={4}>
+					<Card
+						title="Sakura Express"
+						img={SakuraExpress}
+						url="http://www.sakuraexpressprinceton.com/"
+						text="No-frills BYO spot for Japanese standards & sushi, with lots of vegetarian options & a salad bar."
+						tags={
+							<div className="my-container space">
+								<Tag name="Japanese" color={Colors.japaneseTag} />
+
+								<Tag name="TakeOut" color={Colors.takeoutTag} />
+								<Tag name="Delivery" color={Colors.deliveryTag} />
+							</div>} />
+				</Col>
+
+				<Col lg={4}>
+					<Card
+						title="Say Cheez"
+						img={SayCheez}
+						url="https://www.saycheezcafe.com/"
+						text="Counter-serve diner offering macaroni & cheese, melted cheese sandwiches & other comfort foods."
+						tags={
+							<div className="my-container space">
+								<Tag name="Sandwich" color={Colors.sandwichTag} />
+								<Tag name="Dine-In" color={Colors.dineInTag} />
+								<Tag name="TakeOut" color={Colors.takeoutTag} />
+								<Tag name="Delivery" color={Colors.deliveryTag} />
+							</div>} />
+				</Col>
+
+				<Col lg={4}>
+					<Card
+						title="Small Bites"
+						img={SmallBites}
+						url="https://www.smallbitesbylocalgreek.com/"
+						text="Easy takeout and homemade Gourmet Greek grab and go."
+						tags={
+							<div className="my-container space">
+								<Tag name="Mediterranean" color={Colors.mediterraneanTag} />
+								<Tag name="Dine-In" color={Colors.dineInTag} />
+								<Tag name="TakeOut" color={Colors.takeoutTag} />
+								<Tag name="Delivery" color={Colors.deliveryTag} />
+							</div>} />
+				</Col>
+			</Row>
+			<Row style={styles.projectRow}>
+				<Col lg={4}>
+					<Card
+						title="Small World Coffee"
+						img={SmallWorldCoffee}
+						url="https://smallworldcoffee.com/"
+						text="Coffee brewer using the highest quality beans available,"
+						tags={
+							<div className="my-container space">
+								<Tag name="Cafe" color={Colors.cafeTag} />
+
+								<Tag name="TakeOut" color={Colors.takeoutTag} />
+
+							</div>} />
+				</Col>
+
+				<Col lg={4}>
+					<Card
+						title="Soonja's Cuisine"
+						img={SoonjasCuisine}
+						url="https://www.yelp.com/biz/soonjas-cafe-princeton"
+						text="Pan-Asian restaurant with a diverse menu of sushi, Korean specialties & more, plus a BYOB policy."
+						tags={
+							<div className="my-container space">
+								<Tag name="Korean" color={Colors.koreanTag} />
+
+								<Tag name="TakeOut" color={Colors.takeoutTag} />
+
+							</div>} />
+				</Col>
+
+				<Col lg={4}>
+					<Card
+						title="Starbucks"
+						img={Starbucks}
+						url="https://www.starbucks.com/"
+						text="Seattle-based coffeehouse chain known for its signature roasts, light bites and WiFi availability."
+						tags={
+							<div className="my-container space">
+								<Tag name="Cafe" color={Colors.cafeTag} />
+
+								<Tag name="TakeOut" color={Colors.takeoutTag} />
+
+							</div>} />
+				</Col>
+			</Row>
+			<Row style={styles.projectRow}>
+				<Col lg={4}>
+					<Card
+						title="Tacoria"
+						img={Tacoria}
+						url="http://tacoria.com/"
+						text="Modern tacos, burritos & vegan offerings in a funky Mexican setting with vibrant art."
+						tags={
+							<div className="my-container space">
+								<Tag name="Mexican" color={Colors.mexicanTag} />
+
+								<Tag name="TakeOut" color={Colors.takeoutTag} />
+
+							</div>} />
+				</Col>
+
+				<Col lg={4}>
+					<Card
+						title="Taste of Mexico"
+						img={TasteofMexico}
+						url="https://www.yelp.com/biz/taste-of-mexico-princeton-2"
+						text="Unassuming, compact go-to with outdoor seating & an extensive menu of Mexican specialties."
+						tags={
+							<div className="my-container space">
+								<Tag name="Mexican" color={Colors.mexicanTag} />
+
+								<Tag name="TakeOut" color={Colors.takeoutTag} />
+
+							</div>} />
+				</Col>
+
+				<Col lg={4}>
+					<Card
+						title="Terramomo Bakery"
+						img={TerramomoBakery}
+						url="https://www.terramomo.com/terra-momo-bread-company/"
+						text="Old-world bakery producing a range of rustic loaves & pastries in a bright, snug storefront."
+						tags={
+							<div className="my-container space">
+								<Tag name="Bakery" color={Colors.bakeryTag} />
+
+								<Tag name="TakeOut" color={Colors.takeoutTag} />
+
+							</div>} />
+				</Col>
+			</Row>
+			<Row style={styles.projectRow}>
+			<Col lg={4}>
+				<Card
+					title="Thai Village Place"
+					img={ThaiVillagePlace}
+					url="http://www.thaivillageprinceton.com/"
+					text="Amazing Delicious Thai restaurant"
+					tags={
+						<div className="my-container space">
+							<Tag name="Thai" color={Colors.thaiTag} />
+							<Tag name="Dine-In" color={Colors.dineInTag} />
+							<Tag name="TakeOut" color={Colors.takeoutTag} />
+							<Tag name="Delivery" color={Colors.deliveryTag} />
+						</div>} />
+			</Col>
+
+			<Col lg={4}>
+				<Card
+					title="The Bent Spoon"
+					img={TheBentSpoon}
+					url="https://www.thebentspoon.com/"
+					text="Inventive ice cream made from organic ingredients along with baked sweets in a compact setting."
+					tags={
+						<div className="my-container space">
+							<Tag name="Ice Cream" color={Colors.icecreamTag} />
+
+							<Tag name="TakeOut" color={Colors.takeoutTag} />
+
+						</div>} />
+			</Col>
+
+			<Col lg={4}>
+				<Card
+					title="The Salad and Smoothie Market"
+					img={TheSaladandSmoothieMarket}
+					url="http://www.thepastryroom1.com/"
+					text="Design your salad with a variety of fresh and healthy ingredients. Pair it with a delicious smoothie, made with all frozen fruit and never ice."
+					tags={
+						<div className="my-container space">
+							<Tag name="Bakery" color={Colors.bakeryTag} />
+
+							<Tag name="TakeOut" color={Colors.takeoutTag} />
+
+						</div>} />
+			</Col>
+			</Row>
+			<Row style={styles.projectRow}>
+			<Col lg={4}>
+				<Card
+					title="The Yankee Doodle Tap Room"
+					img={TheYankeeDoodleTapRoom}
+					url="https://www.nassauinn.com/dining/"
+					text="In the historical Nassau Inn, this spot features pub fare & a Norman Rockwell mural behind the bar."
+					tags={
+						<div className="my-container space">
+							<Tag name="Bar and Grill" color={Colors.barandgrillTag} />
+							<Tag name="Dine-In" color={Colors.dineInTag} />
+							<Tag name="TakeOut" color={Colors.takeoutTag} />
+
+						</div>} />
+			</Col>
+
+			<Col lg={4}>
+				<Card
+					title="Thomas Sweet Chocolate"
+					img={ThomasSweetChocolate}
+					url="https://thomassweet.com/"
+					text="Whether you’re enjoying our homemade ice creams and blend-ins, our freshly baked pastries or our handmade chocolates, you can always count on our attention to ingredients and craftsmanship."
+					tags={
+						<div className="my-container space">
+							<Tag name="Sweets" color={Colors.sweetsTag} />
+
+							<Tag name="TakeOut" color={Colors.takeoutTag} />
+
+						</div>} />
+			</Col>
+
+			<Col lg={4}>
+				<Card
+					title="Thomas Sweet Ice Cream"
+					img={ThomasSweetIceCream}
+					url="https://thomassweet.com/"
+					text="Whether you’re enjoying our homemade ice creams and blend-ins, our freshly baked pastries or our handmade chocolates, you can always count on our attention to ingredients and craftsmanship."
+					tags={
+						<div className="my-container space">
+							<Tag name="Ice Cream" color={Colors.icecreamTag} />
+
+							<Tag name="TakeOut" color={Colors.takeoutTag} />
+
+						</div>} />
+			</Col>
+			</Row>
+			<Row style={styles.projectRow}>
+			<Col lg={4}>
+				<Card
+					title="Tico's Eatery and Juice Bar"
+					img={TicosEateryandJuiceBar}
+					url="https://www.ticosprinceton.com/"
+					text="Juice bar offering cold-pressed fruit & vegetable blends, including cleanse plans, plus smoothies."
+					tags={
+						<div className="my-container space">
+							<Tag name="Juice and Smoothies" color={Colors.juiceandsmoothiesTag} />
+
+							<Tag name="TakeOut" color={Colors.takeoutTag} />
+
+						</div>} />
+			</Col>
+
+			<Col lg={4}>
+				<Card
+					title="Tiger Noodles"
+					img={TigerNoodles}
+					url="https://www.princetontigernoodles.com/"
+					text="Casual noodle shop featuring Chinese eats, a BYOB policy & patio seating."
+					tags={
+						<div className="my-container space">
+							<Tag name="Chinese" color={Colors.chineseTag} />
+
+							<Tag name="TakeOut" color={Colors.takeoutTag} />
+
+						</div>} />
+			</Col>
+
+			<Col lg={4}>
+				<Card
+					title="Tomo Sushi"
+					img={TomoSushi}
+					url="https://www.tomosushiprinceton.com/"
+					text="Small BYO eatery near Princeton U. campus serving Japanese standards & a large variety of sushi."
+					tags={
+						<div className="my-container space">
+							<Tag name="Japanese" color={Colors.japaneseTag} />
+
+							<Tag name="TakeOut" color={Colors.takeoutTag} />
+							<Tag name="Delivery" color={Colors.deliveryTag} />
+						</div>} />
+			</Col>
+			</Row>
+			<Row style={styles.projectRow}>
+			<Col lg={4}>
+				<Card
+					title="Tortuga's Mexican Restaurant"
+					img={TortugasMexicanRestaurant}
+					url="https://www.tortugasmv.com/"
+					text="Energetic cash-only Mexican restaurant with traditional dishes & a BYOB policy."
+					tags={
+						<div className="my-container space">
+							<Tag name="Mexican" color={Colors.mexicanTag} />
+
+							<Tag name="TakeOut" color={Colors.takeoutTag} />
+							<Tag name="Delivery" color={Colors.deliveryTag} />
+						</div>} />
+			</Col>
+
+			<Col lg={4}>
+				<Card
+					title="Trattoria Procaccini"
+					img={TrattoriaProcaccini}
+					url="http://getforky.com/"
+					text="BYOB Italian eatery offering an area-sourced traditional menu in a casual, industrial setting."
+					tags={
+						<div className="my-container space">
+							<Tag name="Italian" color={Colors.italianTag} />
+							<Tag name="Dine-In" color={Colors.dineInTag} />
+							<Tag name="TakeOut" color={Colors.takeoutTag} />
+							<Tag name="Delivery" color={Colors.deliveryTag} />
+						</div>} />
+			</Col>
+
+			<Col lg={4}>
+				<Card
+					title="Vienna Café"
+					img={ViennaCafé}
+					url="https://www.viennacafeandbistro.com/"
+					text="Classy cafe offering American & Viennese-style omelettes, sandwiches & desserts, plus outdoor seats."
+					tags={
+						<div className="my-container space">
+							<Tag name="Cafe" color={Colors.cafeTag} />
+
+							<Tag name="TakeOut" color={Colors.takeoutTag} />
+							<Tag name="Delivery" color={Colors.deliveryTag} />
+						</div>} />
+			</Col>
+			</Row>
+			<Row style={styles.projectRow}>
+			<Col lg={4}>
+				<Card
+					title="Winberie's Restaurant and Bar"
+					img={WinberiesRestaurantandBar}
+					url="http://princeton.winberies.com/"
+					text="Casual eatery that serves up burgers, brews & brunch, plus a gluten-free menu."
+					tags={
+						<div className="my-container space">
+							<Tag name="American" color={Colors.americanTag} />
+							<Tag name="Dine-In" color={Colors.dineInTag} />
+							<Tag name="TakeOut" color={Colors.takeoutTag} />
+							<Tag name="Delivery" color={Colors.deliveryTag} />
+						</div>} />
+			</Col>
+
+			<Col lg={4}>
+				<Card
+					title="Terra Momo Bread Company"
+					img={TerraMomoBreadCompany}
+					url="https://www.terramomo.com/terra-momo-bread-company/"
+					text="Old-world bakery producing a range of rustic loaves & pastries in a bright, snug storefront."
+					tags={
+						<div className="my-container space">
+							<Tag name="Bakery" color={Colors.bakeryTag} />
+
+							<Tag name="TakeOut" color={Colors.takeoutTag} />
+
+						</div>} />
+			</Col>
+
+			<Col lg={4}>
+				<Card
+					title="Witherspoon Grill"
+					img={WitherspoonGrill}
+					url="https://www.witherspoongrill.com/"
+					text="Lively grill (with a bustling bar scene) known for surf 'n' turf, cocktails & a patio."
+					tags={
+						<div className="my-container space">
+							<Tag name="Bar and Grill" color={Colors.barandgrillTag} />
+							<Tag name="Dine-In" color={Colors.dineInTag} />
+							<Tag name="TakeOut" color={Colors.takeoutTag} />
+
+						</div>} />
+			</Col>
+			</Row>
+
 
 		</div>
 	</div>
