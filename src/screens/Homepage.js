@@ -48,7 +48,7 @@ import LupitaMexicanGrocery from '../images/lupitamexican.png';
 import MamounsFalafelRestaurant from '../images/mamoun.jpeg';
 import Mediterra from '../images/mediterra.jpeg';
 import MeetingHouse from '../images/meetingHouse.jpeg';
-<<<<<<< HEAD
+
 import MetroNorth from '../images/metroNorth.jpeg';
 import MilkCookies from '../images/milkAndCookies.jpeg';
 import Mistral from '../images/mistral.jpeg';
@@ -59,53 +59,40 @@ import Olives from '../images/olives.jpeg';
 import OlssonsFineFoods from '../images/Olssons.jpeg';
 import PaneraBread from '../images/panera.jpeg';
 import PizzaDen from '../images/pizzaDen.jpeg';
-import PJsPancakeHouse from '../images/agricola.jpg';
-=======
-import MetroNorth from '../images/agricola.jpg';
-import MilkCookies from '../images/agricola.jpg';
-import Mistral from '../images/agricola.jpg';
-import MolisanaDeli from '../images/agricola.jpg';
-import NassauSeafoodandProduce from '../images/agricola.jpg';
-import NassauSushi from '../images/agricola.jpg';
-import Olives from '../images/agricola.jpg';
-import OlssonsFineFoods from '../images/agricola.jpg';
-import PaneraBread from '../images/agricola.jpg';
-import PizzaDen from '../images/agricola.jpg';
-import PJsPancakeHouse from '../images/pj_pancake';
->>>>>>> cac0ccfc06a1b8a42c50c98158fa3a7b76d4254b
-import PrincetonSoupSandwich from '../images/agricola.jpg';
-import PlayaBowls from '../images/agricola.jpg';
-import PurinsuRamen from '../images/agricola.jpg';
 
-import Qdoba from '../images/agricola.jpg';
-import RojosRoastery from '../images/agricola.jpg';
-import RootsOceanPrime from '../images/agricola.jpg';
-import SakridCoffee from '../images/agricola.jpg';
-import SakuraExpress from '../images/agricola.jpg';
-import SayCheez from '../images/agricola.jpg';
-import SmallBites from '../images/agricola.jpg';
-import SmallWorldCoffee from '../images/agricola.jpg';
-import SoonjasCuisine from '../images/agricola.jpg';
-import Starbucks from '../images/agricola.jpg';
-import Tacoria from '../images/agricola.jpg';
-import TasteofMexico from '../images/agricola.jpg';
-import TerramomoBakery from '../images/agricola.jpg';
+import PJsPancakeHouse from '../images/pj_pancake.jpg';
+import PrincetonSoupSandwich from '../images/princetonsoupandsandwich.jpg';
+import PlayaBowls from '../images/playabowls.jpg';
+import PurinsuRamen from '../images/purinsu.jpg';
 
-import	ThaiVillagePlace	from '../images/agricola.jpg';
-import	TheBentSpoon	from '../images/agricola.jpg';
-import	ThePastryRoom	from '../images/agricola.jpg';
-import	TheYankeeDoodleTapRoom	from '../images/agricola.jpg';
-import	ThomasSweetChocolate	from '../images/agricola.jpg';
-import	ThomasSweetIceCream	from '../images/agricola.jpg';
-import	TicosEateryandJuiceBar	from '../images/agricola.jpg';
-import	TigerNoodles	from '../images/agricola.jpg';
-import	TomoSushi	from '../images/agricola.jpg';
-import	TortugasMexicanRestaurant	from '../images/agricola.jpg';
-import	TrattoriaProcaccini	from '../images/agricola.jpg';
-import	ViennaCafé	from '../images/agricola.jpg';
-import	WinberiesRestaurantandBar	from '../images/agricola.jpg';
-import	TerraMomoBreadCompany	from '../images/agricola.jpg';
-import	WitherspoonGrill	from '../images/agricola.jpg';
+import Qdoba from '../images/qdoba.jpg';
+import RojosRoastery from '../images/rojos.jpg';
+import RootsOceanPrime from '../images/rootsocean.jpg';
+import SakridCoffee from '../images/sakrid.jpg';
+import SakuraExpress from '../images/sakuraexpress.jpg';
+import SayCheez from '../images/saycheez.jpg';
+import SmallBites from '../images/smallbites.jpg';
+import SmallWorldCoffee from '../images/smallworldcoffee.jpg';
+import SoonjasCuisine from '../images/soonjas.jpg';
+import Starbucks from '../images/starbucks.jpg';
+import Tacoria from '../images/tacoria.jpg';
+import TasteofMexico from '../images/tasteofmexico.jpg';
+import TerramomoBakery from '../images/terramomo.jpg';
+
+import	ThaiVillagePlace	from '../images/thaivillage.jpg';
+import	TheBentSpoon	from '../images/thebentspoon.jpg';
+import	ThePastryRoom	from '../images/thepastryroom.jpg';
+import	TheYankeeDoodleTapRoom	from '../images/yankeedoodletap.jpg';
+import	ThomasSweetChocolate	from '../images/thomassweetchoco.jpg';
+import	ThomasSweetIceCream	from '../images/thomassweeticecream.jpg';
+import	TicosEateryandJuiceBar	from '../images/ticos.jpg';
+import	TigerNoodles	from '../images/tigernoodles.jpg';
+import	TomoSushi	from '../images/tomo.jpg';
+import	TortugasMexicanRestaurant	from '../images/tortuga.jpg';
+import	TrattoriaProcaccini	from '../images/trattoria.jpg';
+import	ViennaCafé	from '../images/cafevienna.jpg';
+import	WinberiesRestaurantandBar	from '../images/winberie.jpg';
+import	WitherspoonGrill	from '../images/witherspoon.jpg';
 
 /* Images */
 import princeton from '../images/princeton.jpg';
@@ -182,7 +169,7 @@ const Homepage = () => (
 
 				<Col lg={4}>
 					<Card
-						title="Bent Spoon Artisan Ice Cream and Bakery"
+						title="The Bent Spoon"
 						img={BentSpoonArtisanIceCreamandBakery}
 						url="https://www.thebentspoon.com/"
 						text="Inventive ice cream made from organic ingredients along with baked sweets in a compact setting."
@@ -228,7 +215,7 @@ const Homepage = () => (
 
 				<Col lg={4}>
 					<Card
-						title="Chapin Guatamalean Cuisine"
+						title="Chapin Cuisine"
 						img={ChapinGuatamaleanCuisine}
 						url="https://www.yelp.com/biz/chapin-guatemalan-and-mexican-restaurant-princeton"
 						text="Traditional Guatamalean food"
@@ -546,7 +533,7 @@ const Homepage = () => (
 						title="KBG Korean bbq & grill"
 						img={KBGKoreanbbqgrill}
 						url="http://www.eatkbg.com/"
-						text="KBG Korean BBQ & Grill is a fast casual restaurant in New Jersey with flavor from Korea. We believe in proving a different approach to Korean BBQ. Our goal is to stay authentic and provide real deal Korean food. Fresh. Affordable. Satisfying."
+						text="KBG Korean BBQ & Grill is a fast casual restaurant in New Jersey with flavor from Korea. "
 						tags={
 							<div className="my-container space">
 								<Tag name="Korean" color={Colors.koreanTag} />
