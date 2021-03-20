@@ -26,7 +26,7 @@ import DunkinDonuts from '../images/princeton.jpg';
 import EFESMediterranean from '../images/efes.png';
 import Elements from '../images/elements.png';
 import Elite5Sushi from '../images/elitefives.png';
-import FruityYogurt from '../images/fruityyogrt.png';
+import FruityYogurt from '../images/fruityyogurt.png';
 import FruttaBowls from '../images/frutta.png';
 import HaloPub from '../images/halopub.png';
 import HoagieHaven from '../images/hoagiehaven.png';
@@ -79,7 +79,7 @@ import TerramomoBakery from '../images/agricola.jpg';
 
 import	ThaiVillagePlace	from '../images/agricola.jpg';
 import	TheBentSpoon	from '../images/agricola.jpg';
-import	TheSaladandSmoothieMarket	from '../images/agricola.jpg';
+import	ThePastryRoom	from '../images/agricola.jpg';
 import	TheYankeeDoodleTapRoom	from '../images/agricola.jpg';
 import	ThomasSweetChocolate	from '../images/agricola.jpg';
 import	ThomasSweetIceCream	from '../images/agricola.jpg';
@@ -1164,8 +1164,8 @@ const Homepage = () => (
 
 			<Col lg={4}>
 				<Card
-					title="The Salad and Smoothie Market"
-					img={TheSaladandSmoothieMarket}
+					title="The Pastry Room"
+					img={ThePastryRoom}
 					url="http://www.thepastryroom1.com/"
 					text="Design your salad with a variety of fresh and healthy ingredients. Pair it with a delicious smoothie, made with all frozen fruit and never ice."
 					tags={
