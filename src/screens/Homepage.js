@@ -1365,7 +1365,6 @@ const Homepage = () => (
 
 		</div>
 	</div>
->>>>>>> d1efa0fabfcd37e23e09304dc4e5c69836697259
 );
 
 const styles = {
