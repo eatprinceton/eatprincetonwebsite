@@ -48,17 +48,17 @@ import LupitaMexicanGrocery from '../images/lupitamexican.png';
 import MamounsFalafelRestaurant from '../images/mamoun.jpeg';
 import Mediterra from '../images/mediterra.jpeg';
 import MeetingHouse from '../images/meetingHouse.jpeg';
-import MetroNorth from '../images/agricola.jpg';
-import MilkCookies from '../images/agricola.jpg';
-import Mistral from '../images/agricola.jpg';
-import MolisanaDeli from '../images/agricola.jpg';
-import NassauSeafoodandProduce from '../images/agricola.jpg';
-import NassauSushi from '../images/agricola.jpg';
-import Olives from '../images/agricola.jpg';
-import OlssonsFineFoods from '../images/agricola.jpg';
-import PaneraBread from '../images/agricola.jpg';
-import PizzaDen from '../images/agricola.jpg';
-import PJsPancakeHouse from '../images/pj_pancake';
+import MetroNorth from '../images/metroNorth.jpeg';
+import MilkCookies from '../images/milkAndCookies.jpeg';
+import Mistral from '../images/mistral.jpeg';
+import MolisanaDeli from '../images/molisanaDeli.jpeg';
+import NassauSeafoodandProduce from '../images/nassauSeafood.jpeg';
+import NassauSushi from '../images/nassauSushi.jpeg';
+import Olives from '../images/olives.jpeg';
+import OlssonsFineFoods from '../images/Olssons.jpeg';
+import PaneraBread from '../images/panera.jpeg';
+import PizzaDen from '../images/pizzaDen.jpeg';
+import PJsPancakeHouse from '../images/pj_pancake.jpg';
 import PrincetonSoupSandwich from '../images/princetonsoupandsandwich.jpg';
 import PlayaBowls from '../images/playabowls.jpg';
 import PurinsuRamen from '../images/purinsu.jpg';
@@ -167,7 +167,7 @@ const Homepage = () => (
 
 				<Col lg={4}>
 					<Card
-						title="Bent Spoon Artisan Ice Cream and Bakery"
+						title="The Bent Spoon"
 						img={BentSpoonArtisanIceCreamandBakery}
 						url="https://www.thebentspoon.com/"
 						text="Inventive ice cream made from organic ingredients along with baked sweets in a compact setting."
@@ -213,7 +213,7 @@ const Homepage = () => (
 
 				<Col lg={4}>
 					<Card
-						title="Chapin Guatamalean Cuisine"
+						title="Chapin Cuisine"
 						img={ChapinGuatamaleanCuisine}
 						url="https://www.yelp.com/biz/chapin-guatemalan-and-mexican-restaurant-princeton"
 						text="Traditional Guatamalean food"
@@ -531,7 +531,7 @@ const Homepage = () => (
 						title="KBG Korean bbq & grill"
 						img={KBGKoreanbbqgrill}
 						url="http://www.eatkbg.com/"
-						text="KBG Korean BBQ & Grill is a fast casual restaurant in New Jersey with flavor from Korea. We believe in proving a different approach to Korean BBQ. Our goal is to stay authentic and provide real deal Korean food. Fresh. Affordable. Satisfying."
+						text="KBG Korean BBQ & Grill is a fast casual restaurant in New Jersey with flavor from Korea. "
 						tags={
 							<div className="my-container space">
 								<Tag name="Korean" color={Colors.koreanTag} />
