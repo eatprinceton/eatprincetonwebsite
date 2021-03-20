@@ -10,19 +10,19 @@ import Card from '../components/Card';
 
 import Agricola from '../images/agricola.jpg';
 import AjitenJapanese from '../images/ajiten.jpg';
-import AlchemistandBarrister from '../images/princeton.jpg';
-import ArleesRawBlends from '../images/princeton.jpg';
-import BentSpoonArtisanIceCreamandBakery from '../images/princeton.jpg';
-import BluePointGrill from '../images/princeton.jpg';
-import CaféVienna from '../images/princeton.jpg';
-import ChapinGuatamaleanCuisine from '../images/princeton.jpg';
-import ChenaiChimeny from '../images/princeton.jpg';
-import ChezAliceGourmetCaféBakery from '../images/princeton.jpg';
-import ChucksSpringStCafé from '../images/princeton.jpg';
-import ContesPizza from '../images/princeton.jpg';
-import DAngelos from '../images/princeton.jpg';
-import DinkyBarKitchen from '../images/princeton.jpg';
-import DunkinDonuts from '../images/princeton.jpg';
+import AlchemistandBarrister from '../images/alchemistbarrister.jpeg';
+import ArleesRawBlends from '../images/arleeRawBlends.jpeg';
+import BentSpoonArtisanIceCreamandBakery from '../images/bentSpoon.jpeg';
+import BluePointGrill from '../images/bluePointGrill.jpeg';
+import CaféVienna from '../images/cafeVienna.jpeg';
+import ChapinGuatamaleanCuisine from '../images/chapin.jpeg';
+import ChenaiChimeny from '../images/chennaiChimney.jpeg';
+import ChezAliceGourmetCaféBakery from '../images/ChezAlice.jpeg';
+import ChucksSpringStCafé from '../images/chuckSpringSt.jpeg';
+import ContesPizza from '../images/contesPizza.jpeg';
+import DAngelos from '../images/dangelosItalian.jpeg';
+import DinkyBarKitchen from '../images/dinkyBarGrill.jpeg';
+import DunkinDonuts from '../images/dunkin.jpeg';
 import EFESMediterranean from '../images/efes.png';
 import Elements from '../images/elements.png';
 import Elite5Sushi from '../images/elitefives.png';
@@ -58,7 +58,7 @@ import Olives from '../images/agricola.jpg';
 import OlssonsFineFoods from '../images/agricola.jpg';
 import PaneraBread from '../images/agricola.jpg';
 import PizzaDen from '../images/agricola.jpg';
-import PJsPancakeHouse from '../images/agricola.jpg';
+import PJsPancakeHouse from '../images/pj_pancake';
 import PrincetonSoupSandwich from '../images/agricola.jpg';
 import PlayaBowls from '../images/agricola.jpg';
 import PurinsuRamen from '../images/agricola.jpg';
@@ -1328,21 +1328,6 @@ const Homepage = () => (
 							<Tag name="Dine-In" color={Colors.dineInTag} />
 							<Tag name="TakeOut" color={Colors.takeoutTag} />
 							<Tag name="Delivery" color={Colors.deliveryTag} />
-						</div>} />
-			</Col>
-
-			<Col lg={4}>
-				<Card
-					title="Terra Momo Bread Company"
-					img={TerraMomoBreadCompany}
-					url="https://www.terramomo.com/terra-momo-bread-company/"
-					text="Old-world bakery producing a range of rustic loaves & pastries in a bright, snug storefront."
-					tags={
-						<div className="my-container space">
-							<Tag name="Bakery" color={Colors.bakeryTag} />
-
-							<Tag name="TakeOut" color={Colors.takeoutTag} />
-
 						</div>} />
 			</Col>
 
