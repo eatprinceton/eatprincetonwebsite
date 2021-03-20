@@ -48,6 +48,7 @@ import LupitaMexicanGrocery from '../images/lupitamexican.png';
 import MamounsFalafelRestaurant from '../images/mamoun.jpeg';
 import Mediterra from '../images/mediterra.jpeg';
 import MeetingHouse from '../images/meetingHouse.jpeg';
+<<<<<<< HEAD
 import MetroNorth from '../images/metroNorth.jpeg';
 import MilkCookies from '../images/milkAndCookies.jpeg';
 import Mistral from '../images/mistral.jpeg';
@@ -59,6 +60,19 @@ import OlssonsFineFoods from '../images/Olssons.jpeg';
 import PaneraBread from '../images/panera.jpeg';
 import PizzaDen from '../images/pizzaDen.jpeg';
 import PJsPancakeHouse from '../images/agricola.jpg';
+=======
+import MetroNorth from '../images/agricola.jpg';
+import MilkCookies from '../images/agricola.jpg';
+import Mistral from '../images/agricola.jpg';
+import MolisanaDeli from '../images/agricola.jpg';
+import NassauSeafoodandProduce from '../images/agricola.jpg';
+import NassauSushi from '../images/agricola.jpg';
+import Olives from '../images/agricola.jpg';
+import OlssonsFineFoods from '../images/agricola.jpg';
+import PaneraBread from '../images/agricola.jpg';
+import PizzaDen from '../images/agricola.jpg';
+import PJsPancakeHouse from '../images/pj_pancake';
+>>>>>>> cac0ccfc06a1b8a42c50c98158fa3a7b76d4254b
 import PrincetonSoupSandwich from '../images/agricola.jpg';
 import PlayaBowls from '../images/agricola.jpg';
 import PurinsuRamen from '../images/agricola.jpg';
@@ -79,7 +93,7 @@ import TerramomoBakery from '../images/agricola.jpg';
 
 import	ThaiVillagePlace	from '../images/agricola.jpg';
 import	TheBentSpoon	from '../images/agricola.jpg';
-import	TheSaladandSmoothieMarket	from '../images/agricola.jpg';
+import	ThePastryRoom	from '../images/agricola.jpg';
 import	TheYankeeDoodleTapRoom	from '../images/agricola.jpg';
 import	ThomasSweetChocolate	from '../images/agricola.jpg';
 import	ThomasSweetIceCream	from '../images/agricola.jpg';
@@ -1164,8 +1178,8 @@ const Homepage = () => (
 
 			<Col lg={4}>
 				<Card
-					title="The Salad and Smoothie Market"
-					img={TheSaladandSmoothieMarket}
+					title="The Pastry Room"
+					img={ThePastryRoom}
 					url="http://www.thepastryroom1.com/"
 					text="Design your salad with a variety of fresh and healthy ingredients. Pair it with a delicious smoothie, made with all frozen fruit and never ice."
 					tags={
@@ -1328,21 +1342,6 @@ const Homepage = () => (
 							<Tag name="Dine-In" color={Colors.dineInTag} />
 							<Tag name="TakeOut" color={Colors.takeoutTag} />
 							<Tag name="Delivery" color={Colors.deliveryTag} />
-						</div>} />
-			</Col>
-
-			<Col lg={4}>
-				<Card
-					title="Terra Momo Bread Company"
-					img={TerraMomoBreadCompany}
-					url="https://www.terramomo.com/terra-momo-bread-company/"
-					text="Old-world bakery producing a range of rustic loaves & pastries in a bright, snug storefront."
-					tags={
-						<div className="my-container space">
-							<Tag name="Bakery" color={Colors.bakeryTag} />
-
-							<Tag name="TakeOut" color={Colors.takeoutTag} />
-
 						</div>} />
 			</Col>
 
