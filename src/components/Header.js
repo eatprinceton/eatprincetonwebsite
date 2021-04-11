@@ -16,7 +16,11 @@ class Header extends Component {
     console.log(this.state.toggle);
   };
   headerColor = () => {
-    return { backgroundColor: 'white'};
+    if (!this.state.top || this.state.toggle || this.props.solid) {
+			return { backgroundColor: 'white' };
+		} else {
+			return { backgroundColor: 'transparent' };
+		}
   };
   //   logoColor = () => {
   //     if (!this.state.top || this.state.toggle) {
@@ -62,21 +66,14 @@ class Header extends Component {
                 Home
               </Link>
               <Link
-                to="/"
+                to="/restaurants"
                 className="nav-link"
                 onClick={() => window.scrollTo(0, 0)}
               >
                 Restaurants
               </Link>
               <Link
-                to="/"
-                className="nav-link"
-                onClick={() => window.scrollTo(0, 0)}
-              >
-                Retail
-              </Link>
-              <Link
-                to="/"
+                to="/about"
                 className="nav-link"
                 onClick={() => window.scrollTo(0, 0)}
               >
