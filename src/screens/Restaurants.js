@@ -118,7 +118,7 @@ const Restaurants = () => (
 								<Tag name="American" color={Colors.americanTag} />
 								<Tag name="Dine-In" color={Colors.dineInTag} />
 								<Tag name="TakeOut" color={Colors.takeoutTag} />
-							</div>} />
+							</div> } />
 				</Col>
 
 				<Col lg={4}>
