@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Carousel, Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import '../style.css';
@@ -120,7 +120,18 @@ const data = [
   ];
 
 function Restaurants () {
-	console.log(data)
+	// table data
+	const [table, setTable] = useState(data)
+	const [searchType, setType] = useState('');
+	const filterItems = (arr, query) => {
+		return arr.filter((card) => card.title.toLowerCase().includes(query.toLowerCase()));
+	}
+	
+	let currentCards = filterItems(data, '2');
+
+	console.log(currentCards)
+	
+
 	return (
 	<div className="center-text">
 		<Header solid={false} />
@@ -128,10 +139,11 @@ function Restaurants () {
 		<div className="sectionBackground">
 			{/************* Restaurants *********************/}
 			<h1 className="section-title">Restaurants</h1>
-			<div>
-				<input type="search" id="searchbar" name="searchbar" class=""></input>
-				<label class="form-label" for="searchbar">Search</label>
+			<div type= "form-outline">
+				<input type="search" id="searchbar" name="searchbar" class="form-control rounded" placeholder="Search for your favorite restaurants!"></input>
 			</div>
+
+			{currentCards.map((card) => <Card component={Card} title={card.title} image={card.image} text={card.text} url={card.url} tags={card.tags}/>)}
 			
 			<Row style={styles.projectRow}>
 				<Col lg={4}>
