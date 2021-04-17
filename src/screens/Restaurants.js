@@ -99,13 +99,40 @@ import	WitherspoonGrill	from '../images/witherspoon.jpg';
 import princeton from '../images/princeton.jpg';
 import pj from '../images/pj_pancake.jpg';
 
-const Restaurants = () => (
+/* array */
+/* ['title, image, url, text, [tags]] */
+/* data.map((input) =. <Card   >) */
+function createData([title, image, url, text, tags]) {
+	return {
+	  title,
+	  image,
+	  url,
+	  text,
+	  tags
+	};
+  }
+
+/* data */
+const data = [
+	createData(['1', Agricola, '1', '1', ['1', '11']]),
+	createData(['2', Agricola, '2', '2', ['2', '22']]),
+	createData(['3', Agricola, '3', '3', ['3', '33']])
+  ];
+
+function Restaurants () {
+	console.log(data)
+	return (
 	<div className="center-text">
 		<Header solid={false} />
 
 		<div className="sectionBackground">
 			{/************* Restaurants *********************/}
 			<h1 className="section-title">Restaurants</h1>
+			<div>
+				<input type="search" id="searchbar" name="searchbar" class=""></input>
+				<label class="form-label" for="searchbar">Search</label>
+			</div>
+			
 			<Row style={styles.projectRow}>
 				<Col lg={4}>
 					<Card
@@ -1353,6 +1380,7 @@ const Restaurants = () => (
 		<Footer/>
 	</div>
 );
+}
 
 const styles = {
 	projectRow: {
