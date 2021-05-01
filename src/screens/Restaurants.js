@@ -114,22 +114,37 @@ function createData([title, image, url, text, tags]) {
 
 /* data */
 const data = [
-	createData(['1', Agricola, '1', '1', ['1', '11']]),
+	createData(['1', Agricola, 'https://www.google.com/', '1', ['1', '11']]),
 	createData(['2', Agricola, '2', '2', ['2', '22']]),
-	createData(['3', Agricola, '3', '3', ['3', '33']])
+	createData(['3', Agricola, '3', '3', ['3', '33']]),
+	createData(['11111', Agricola, 'https://www.google.com/', '1', ['1', '11']]),
   ];
 
 function Restaurants () {
 	// table data
 	const [table, setTable] = useState(data)
-	const [searchType, setType] = useState('');
-	const filterItems = (arr, query) => {
-		return arr.filter((card) => card.title.toLowerCase().includes(query.toLowerCase()));
-	}
+	const [searchQuery, setQuery] = useState('');
+	// const filterItems = (arr, query) => {
+	// 	return arr.filter((card) => card.title.toLowerCase().includes(query.toLowerCase()));
+	// }
+	useEffect(() => {
+		const filterArray = () => {
+		  let filtered = [...data];
+		  filtered = filtered.filter((card) => card.title.toLowerCase().includes(searchQuery.toLowerCase()));
+		  setTable(filtered);
+		};
+		console.log(searchQuery);
+		filterArray(searchQuery);
+	}, [searchQuery]);
 	
-	let currentCards = filterItems(data, '2');
+	/* implement text input search function */
+	const changeQuery = (event) => {
+		setQuery(event.target.value);
+	};
+	
+	//   let currentCards = filterItems(data, '2');
 
-	console.log(currentCards)
+	// console.log(currentCards)
 	
 
 	return (
@@ -140,10 +155,18 @@ function Restaurants () {
 			{/************* Restaurants *********************/}
 			<h1 className="section-title">Restaurants</h1>
 			<div type= "form-outline">
-				<input type="search" id="searchbar" name="searchbar" class="form-control rounded" placeholder="Search for your favorite restaurants!"></input>
+				<input type="search" id="searchbar" value={searchQuery} onChange={changeQuery} class="form-control rounded" placeholder="Search for your favorite restaurants!"></input>
 			</div>
 
-			{currentCards.map((card) => <Card component={Card} title={card.title} image={card.image} text={card.text} url={card.url} tags={card.tags}/>)}
+			<div className="row">
+				{table.map((card) =>
+				 	<div className ="col-lg-4">
+						<Card component={Card} title={card.title} img={card.image} text={card.text} url={card.url} tags={card.tags}/>
+					</div>
+				)}
+			</div>
+
+			
 			
 			<Row style={styles.projectRow}>
 				<Col lg={4}>
