@@ -1,7 +1,7 @@
 import React from 'react';
 import '../style.css';
 import { Carousel, Row, Col } from 'react-bootstrap';
-
+import Card from '../components/Card';
 import Colors from '../colors';
 
 import Header from '../components/Header';

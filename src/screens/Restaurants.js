@@ -165,10 +165,8 @@ function Restaurants () {
 					</div>
 				)}
 			</div>
-
 			
-			
-			<Row style={styles.projectRow}>
+			{/* <Row style={styles.projectRow}>
 				<Col lg={4}>
 					<Card
 						title="Agricola"
@@ -177,8 +175,8 @@ function Restaurants () {
 						text="Creative farm-to-table fare is the draw at this modern eatery with an open kitchen & hip atmosphere."
 						tags={
 							<div className="my-container space">
-								<Tag name="American" color={Colors.americanTag} />
-								<Tag name="Dine-In" color={Colors.dineInTag} />
+								<Tag name="American" color={Colors["americanTag"]} />
+ 								<Tag name="Dine-In" color={Colors.dineInTag} />
 								<Tag name="TakeOut" color={Colors.takeoutTag} />
 							</div> } />
 				</Col>
@@ -1408,7 +1406,7 @@ function Restaurants () {
 
 						</div>} />
 			</Col>
-			</Row>
+			</Row> */}
 
 
 		</div>

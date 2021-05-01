@@ -5,7 +5,7 @@ import Colors from '../colors';
 
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import People from '../screens/ss';
+// import People from '../screens/ss';
 
 const About = () => (
     <div className="center-text">
@@ -23,7 +23,7 @@ const About = () => (
         <div style={{ backgroundColor: 'white'}}>
             <h1 className= 'top section-heading' style={{ backgroundColor: 'white'}} >About Us</h1>
             <h3 className= 'aboutSubtext'>change this</h3>
-            <People/>        
+            {/* <People/>         */}
         </div>
         <Footer/>
     </div>
