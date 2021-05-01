@@ -1,11 +1,14 @@
 import React from 'react';
 import '../style.css';
+import { Carousel, Row, Col } from 'react-bootstrap';
 
 import Colors from '../colors';
 
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import People from '../screens/ss';
+/*import People from '../screens/ss'; */
+import Profile from '../components/Profile';
+import Agricola from '../images/agricola.jpg';
 
 const About = () => (
     <div className="center-text">
@@ -23,10 +26,79 @@ const About = () => (
         <div style={{ backgroundColor: 'white'}}>
             <h1 className= 'top section-heading' style={{ backgroundColor: 'white'}} >About Us</h1>
             <h3 className= 'aboutSubtext'>change this</h3>
-            <People/>        
+            <Row style={styles.projectRow}>
+				<Col lg={4}>
+					<Profile
+						name="Agricola"
+						img={Agricola}
+						url="https://www.agricolaeatery.com/"
+						text="Hello!"
+						year="2023"
+                        major="COS" />
+                    </Col>
+                <Col lg={4}>
+
+					<Profile
+						name="Agricola"
+						img={Agricola}
+						url="https://www.agricolaeatery.com/"
+						text="Hello!"
+						year="2023"
+                        major="COS" />
+				</Col>
+                <Col lg={4}>
+					<Profile
+						name="Agricola"
+						img={Agricola}
+						url="https://www.agricolaeatery.com/"
+						text="Hello!"
+						year="2023"
+                        major="COS" />
+				</Col>
+                </Row>
+                <Row style={styles.projectRow}>
+				<Col lg={4}>
+					<Profile
+						name="Agricola"
+						img={Agricola}
+						url="https://www.agricolaeatery.com/"
+						text="Hello!"
+						year="2023"
+                        major="COS" />
+                    </Col>
+                <Col lg={4}>
+
+					<Profile
+						name="Agricola"
+						img={Agricola}
+						url="https://www.agricolaeatery.com/"
+						text="Hello!"
+						year="2023"
+                        major="COS" />
+				</Col>
+                <Col lg={4}>
+					<Profile
+						name="Agricola"
+						img={Agricola}
+						url="https://www.agricolaeatery.com/"
+						text="Hello!"
+						year="2023"
+                        major="COS" />
+				</Col>
+                </Row>
+            
+
+
+
+       
         </div>
         <Footer/>
     </div>
 );
+const styles = {
+	projectRow: {
+		marginBottom: '50px'
+	}
+};
 
 export default About;
